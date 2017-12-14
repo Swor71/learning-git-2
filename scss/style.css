@@ -7,20 +7,16 @@
   font-size: 20px;
   color: #fff; }
 
-.container-fluid {
-  width: 100%;
-  margin: 0 auto; }
-
 .container {
   max-width: 1200px;
   margin: 0 auto; }
 
 .hero {
   background-image: url(https://i.ytimg.com/vi/W9X1dVzLMhg/maxresdefault.jpg);
-  height: 100vh; }
+  min-height: 100vh; }
   .hero .dimm {
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 100vh; }
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 100vh; }
   .hero .header-section ul {
     list-style-type: none;
     display: flex;
@@ -37,7 +33,7 @@
   user-select: none; }
   .song .title p {
     font-size: 52px;
-    padding-top: 50px; }
+    padding-top: 30px; }
 .song .verse-1 {
   display: flex;
   justify-content: center;
