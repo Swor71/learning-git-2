@@ -31,7 +31,8 @@
 
 .song .title {
   text-align: center;
-  user-select: none; }
+  user-select: none;
+  color: red; }
   .song .title p {
     font-size: 52px;
     padding-top: 30px; }
