@@ -1,0 +1,4 @@
+Autoprefixer: node_modules/.bin/autoprefixer -o style.prefixed.css scss/style.css
+
+Nu-html-checker: node_modules/.bin/nu-html-checker *.html
+
